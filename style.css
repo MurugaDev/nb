@@ -575,6 +575,10 @@ body {
 
 .benefit-block {
   margin-bottom: var(--spacing-2xl);
+  border-radius: 16px;
+  padding: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-white);
 }
 
 .benefit-block p {
@@ -1405,8 +1409,6 @@ body {
   line-height: 1.5rem;
 }
 
-.hero-bottom-text {
-}
 
 .mb-2 {
   margin-bottom: 2rem !important;
@@ -1507,12 +1509,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-xl);
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.benefit-block {
-  border-radius: 16px;
+/* Removed duplicate .benefit-block selector; merged into earlier definition */
   padding: var(--spacing-xl);
   text-align: center;
   color: var(--color-white);
